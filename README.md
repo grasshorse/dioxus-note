@@ -1,15 +1,19 @@
 # dioxus-note
 cat dioxus note test app
-
+- [yt DRAWS note](https://www.youtube.com/watch?v=Pr6T0Phjvgc) and source [github MoonKraken DrawsNotes](https://github.com/MoonKraken/DrawsNotes/tree/main)
+- [yt dioxus series](https://www.youtube.com/playlist?list=PLJEZDlUEtOf5rZjVFnijy6wSW-laKiY0l) and [yt rust-dioxus](https://www.youtube.com/@SyedHussimDev/videos)
+- [yt ToDo sqlite](https://www.youtube.com/watch?v=vmw31Sjx77k)
+- [SurrealDB](https://surrealdb.com/) browser app [https://surrealist.app/overview](https://surrealist.app/overview)
 ## Install SurrealDB 
 ```bash
 curl -sSf https://install.surrealdb.com | sh
 ```
-  - SurrealDB inmemory
+  - [SurrealDB install](https://surrealdb.com/install)
+  - inmemory
     ```bash
     surreal start memory
     ```
-  - SurrealDB file [yt](https://youtu.be/Pr6T0Phjvgc?t=402)
+  - file [yt](https://youtu.be/Pr6T0Phjvgc?t=402)
     ```bash
     surreal start file:catnote.db
     ```
@@ -26,3 +30,5 @@ curl -sSf https://install.surrealdb.com | sh
 ```bash
 dx new dioxus-note
 ```
+- cd dioxus-note
+- dx serve
