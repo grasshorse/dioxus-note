@@ -18,7 +18,7 @@ curl -sSf https://install.surrealdb.com | sh
   ```bash
   cargo install dioxus-cli --locked
   ```
-  - built dioxus-cli [from docs](https://dioxuslabs.com/learn/0.6/getting_started/#install-the-dioxus-cli)
+  - built dioxus-cli [from docs](https://dioxuslabs.com/learn/0.6/getting_started/#install-the-dioxus-cli) NOTE: did not work for me in wsl CyberTruck used ^^^above build
   ```bash
   cargo binstall dioxus-cli
   ```
