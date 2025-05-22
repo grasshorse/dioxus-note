@@ -32,3 +32,5 @@ dx new dioxus-note
 ```
 - cd dioxus-note
 - dx serve
+- dx build --features web
+- dx serve --features ssr --hot-reload --platform desktop
